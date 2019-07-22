@@ -1,0 +1,22 @@
+How To Contour Lines:
+
+
+1. Maperitive herunterladen von:
+http://maperitive.net/
+und entpacken.
+
+2. Die Höhendaten für die Region auswählen und herunterladen von:
+
+http://www.viewfinderpanoramas.org/Coverage%20map%20viewfinderpanoramas_org3.htm
+
+Diese Daten entpacken und im Ordner Maperitive\Cache\Rasters\SRTM3 einfügen.
+
+3. Maperitive.exe starten und auf die gewünschte Region gehen.
+
+4. Im Menüpunkt "Map" - "Set Geometry Bounds" auswählen um den Ausschnitt festzulegen.
+
+5. Im Menüpunkt "Tools" - "Generate Relief Contours" auswählen um für diesen Ausschnitt die Konturen zu generieren.
+
+6. Unten rechts in den "Map Sources" die "Web Map" durch Anklicken des Sterns deaktivieren. Jetzt sollten nur die Konturen angezeigt werden.
+
+7. Über "Tools" - "Export to SVG" kann jetzt die Karte exportiert werden.
