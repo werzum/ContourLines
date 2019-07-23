@@ -15,6 +15,8 @@ Diese Daten entpacken und im Ordner Maperitive\Cache\Rasters\SRTM3 einfügen.
 
 4. Im Menüpunkt "Map" - "Set Geometry Bounds" auswählen um den Ausschnitt festzulegen.
 
+5. Unter "Map" kann auch die Genauigkeit der Reliefkonturen ausgewählt werden. Hierfür geht ihr auf "Edit Rendering Rules" und editiert die Einträge "contour major" und "contour minor". Es muss der Zahlenwert hinter elevation ausgetauscht werden, meiner Erfahrung nach werden Höhenlinien bis zu einer Genauigkeit von 20-Meter-Schritten angenommen.
+
 5. Im Menüpunkt "Tools" - "Generate Relief Contours" auswählen um für diesen Ausschnitt die Konturen zu generieren.
 
 6. Unten rechts in den "Map Sources" die "Web Map" durch Anklicken des Sterns deaktivieren. Jetzt sollten nur die Konturen angezeigt werden.
